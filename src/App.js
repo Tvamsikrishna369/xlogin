@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import styles from './styles.css';
 
-function App() {
+const App = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
